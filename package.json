@@ -1,29 +1,13 @@
 {
-  "name": "farcrystal",
-  "private": true,
+  "name": "farcrystal-mini",
   "version": "1.0.0",
-  "description": "AI-Powered Farcaster Mini App on Base",
+  "private": true,
   "scripts": {
-    "dev": "turbo run dev",
-    "build": "turbo run build",
-    "lint": "turbo run lint",
-    "test": "turbo run test",
-    "db:push": "cd packages/database && prisma db push",
-    "db:migrate": "cd packages/database && prisma migrate dev",
-    "contracts:compile": "cd packages/contracts && hardhat compile",
-    "contracts:deploy": "cd packages/contracts && hardhat run scripts/deploy.ts --network base-sepolia"
+    "build": "cd apps/mini-app && npm run build",
+    "dev": "cd apps/mini-app && npm run dev",
+    "start": "cd apps/mini-app && npm start"
   },
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ],
-  "devDependencies": {
-    "turbo": "^1.12.0",
-    "typescript": "^5.3.0"
-  },
-  "engines": {
-    "node": ">=22.11.0",
-    "pnpm": ">=8.0.0"
-  },
-  "packageManager": "pnpm@8.15.0"
+  "dependencies": {
+    "next": "^15.0.0"
+  }
 }
