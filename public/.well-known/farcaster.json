@@ -1,0 +1,18 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjgwNDgsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgwN0YxYzk0N0I1Mzc5MDI4ZEVmQzYyQjc2M0Y4QTlGRTQzNDVGN2U1In0",
+    "payload": "eyJkb21haW4iOiJmYXJjcnlzdGFsLW1pbmkudmVyY2VsLmFwcCJ9",
+    "signature": "b1dXsoymN3oQ93b4fKCfyacJvnE7QrR0bZWfZrbEldJuJ2KM_5djDWJNGr6ruFy01FkpE74Pj2ezJhp5IlTW3Rs"
+  },
+  "frame": {
+    "version": "1",
+    "name": "Farcrystal - AI Token Launchpad",
+    "iconUrl": "https://farcrystal-mini.vercel.app/icon.png",
+    "homeUrl": "https://farcrystal-mini.vercel.app",
+    "imageUrl": "https://farcrystal-mini.vercel.app/og-image.png",
+    "buttonTitle": "Launch AI Tokens",
+    "splashImageUrl": "https://farcrystal-mini.vercel.app/splash.png",
+    "splashBackgroundColor": "#8B5CF6",
+    "webhookUrl": "https://api.neynar.com/f/app/2a826c98-909c-4b25-b1a4-7af1a31aeb25/event"
+  }
+}
